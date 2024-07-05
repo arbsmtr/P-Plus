@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 3em;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #4CAF50;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+header {
+    background-color: #05667e;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 1em;
+    padding-bottom: 60px
+}
+
+#customer-form,
+#customer-list {
+    background-color: white;
+    padding: 1em;
+    margin: 1em 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em 2em;
+    background-color: #05667e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #05667e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e2e2e2;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:nth-child(odd) {
+    background-color: #d4d4d4;
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+button.delete:hover {
+    background-color: #e53935;
+}
+
+footer {
+    background-color: #05667e;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+footer span {
+    font-weight: bold;
+    font-style: italic;
+}
+
